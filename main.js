@@ -1,4 +1,4 @@
-import { renderContent } from "./app.js";
+import { renderContent } from "app.js";
 
 const noteTitle=document.querySelector('.title');
 const noteContent=document.querySelector('.note');
