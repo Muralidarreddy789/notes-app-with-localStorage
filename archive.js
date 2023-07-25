@@ -1,4 +1,4 @@
-import { renderContent } from "app.js";
+import { renderContent } from "./app.js";
 
 let noteContent=JSON.parse(localStorage.getItem('notes'))||[];
 const archiveContainer=document.querySelector('.archive-notes-container');
